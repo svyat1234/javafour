@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+}
+
+.menu-item{
+    border: 2px solid grey;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+}
+
+.menu-item .submenu{
+    height: 40px;
+    background: rgb(221, 221, 221);
+    position: absolute;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-left: -6px;
+}
